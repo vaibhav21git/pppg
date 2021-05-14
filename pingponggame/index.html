@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PING PONG GAME</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <style>
+        .winner {
+            color: rgb(35, 211, 35);
+        }
+
+        .loser {
+            color: red;
+        }
+        .manu
+        {
+            display: inline-block;
+        }
+        .card-img-top
+        {
+            
+            border: 10px;
+            border-color:rgb(0, 0, 0)
+        }
+        .card-body {
+    /* color: background-color : violet; */
+    color: blue;
+    background-color: rgb(215, 245, 49);
+}
+       
+    </style>
+</head>
+
+<body>
+    <div class="card" style="width: 28rem; height: 34rem">
+        <img src="ping pong im1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text"><h5>PING PONG GAME</h5></p>
+          <h1><span id="s1">0</span> to <span id="s2">0</span></h1>
+          <select name="" , id="playto">
+            <option value="3">3</option>
+            <option value="6">6</option>
+            <option value="9">9</option>
+            <option value="12">12</option>
+            <option value="15">15</option>
+    
+           </select>
+    
+                  <div class ="manu">
+          <button id="p1b" class="btn btn-success">+1 player-1 win</button>
+          <button id="p2b" class="btn btn-info">+1 player-2 win</button>
+          <button id="reset"  class="btn btn-primary">start again</button>
+             </div>
+      
+        </div>
+      
+    </div>
+
+
+    <script src="app.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+</body>
+
+</html>
